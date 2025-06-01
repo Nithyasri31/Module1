@@ -10,10 +10,18 @@ To write a Python program that reads two integers, creates a complex number usin
 4. Print the complex number `x`.
 5. Print the real part of `x` using `x.real`.
 6. Print the imaginary part of `x` using `x.imag`.
-
+   
 ## 💻 Program
-Add Code Here
-
+```
+x=int(input(''))
+y=int(input(''))
+x=complex(x,y)
+print(x)
+print(x.real)
+print(x.imag)
+```
 ## Output
+![439161431-31586238-a956-469b-814c-f368cf28d8e2](https://github.com/user-attachments/assets/23c10fc6-2888-455a-89c2-961212ece386)
 
 ## Result
+Thus, the program as been executed successfully.
